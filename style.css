@@ -1,0 +1,280 @@
+*{
+   font-family: "Montserrat";
+   /* margin: 0 auto; */
+}
+body{
+  max-width: 1440px;
+  max-height: 3007px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+ span{
+  color: rgba(251, 162, 79, 1);
+ }
+.content{
+ width: 600px;
+ height: 234px;
+ margin-top: 300px;
+ margin-left: 100px;}
+ 
+
+.contentH1{
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: -2%;
+  color: #575757;
+  width: 700px;
+  height: 234px;
+  margin-bottom: 50px;
+
+}
+.contentP1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height:160% ;
+  letter-spacing: -2%;
+  color: rgba(130, 130, 130, 1);
+
+ 
+}
+.btn{
+  padding: 20px 40px;
+  gap: 16px;
+  background-image: linear-gradient(to right, rgba(251, 162, 79, 1),rgba(255, 30, 30, 1));
+  color: white;
+  border: 0px;
+  border-radius: 100px;
+  box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  margin-top: 49px;
+}
+
+
+.containerimg{
+  width: 650px;
+  height: 788px;
+  margin-top: 100px;
+}
+
+.About{
+  display: flex;
+  gap:32px ;
+  width: 1440px;
+  height: 600px;
+  margin-top: 102px;
+ background-color: rgba(252, 143, 73, 0.1);
+ background-image: url(image/Half\ Circle\ 1.png), url(image/Half\ Circle\ 2.png);
+ background-repeat: no-repeat, no-repeat;
+
+}
+.aboutimg{
+  width: 338px;
+  height: 536px;
+  margin-top: 64px;
+  margin-left: 199px;
+}
+.aboutcontent{
+margin-top: 100px;
+margin-left: 200px;
+}
+.aboutcontentH{
+  font-size: 40px;
+  font-weight: 700;
+  color:rgba(112, 112, 112, 1) ;
+  line-height: 54px;
+
+}
+.aboutcontentP{
+  font-size: 18px;
+  font-weight: 400;
+  line-height:  32px;
+  color: rgba(24, 25, 31, 1);
+  margin-top: 32px;
+  margin-bottom: 70px;
+}
+
+.text{
+  width: 706px;
+  height: 159px;
+  margin-top:150px; 
+  margin-left: 367px;
+  gap: 30px;
+
+}
+.text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 136%;
+align-items: center;
+}
+
+.bannar{
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+}
+.bannar1{
+  width: 610px;
+  height: 562px;
+  margin-top: 38px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.bannerimg{
+  width: 550px;
+  height: 308px;
+  padding: 30px 30px;     
+}
+.bannerh{
+  font-size: 28px;
+  font-weight: 800;
+  margin-left: 30px;
+}
+.bannarp{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.bannarimg{
+    width: 550px;
+  height: 308px;
+  padding: 30px 30px;  
+}
+
+.bannar2{
+  width: 610px;
+  height: 562px;
+  margin-top: 38px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 0px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.speed{
+  width:980px;
+  height: 50px;
+  margin-top: 100px ;
+  margin-left:115px ;
+  padding: 50px 165px;
+  border: 0px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.footer{
+  width: 1440px;
+  height: 200px;
+  margin: 92px 0 0 30px ;
+  background-color:rgba(11, 13, 23, 1);
+  text-align: center;
+
+}
+.H{
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+.footerh{
+  color: rgba(91, 91, 91, 1);
+  font-size:30px ;
+  font-weight: 800;
+  padding-top: 37px;
+  
+}
+.footerp{
+  margin-top: 37px;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+/* Responsive */
+.hide{
+  display: none;
+}
+
+@media screen and  (max-width:576px) {
+
+  body{
+    max-width: 100%;
+  }
+.container{
+  flex-direction: column;
+  gap: 150px;
+  margin-left: 20px;
+}
+.content{
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 0;
+}
+.content h1{
+  font-size: 35px;
+
+}
+.contentP1{
+  font-size: 15px;
+}
+.containerimg{
+  width: 100%;
+  height: auto;
+}
+
+.About{
+  flex-direction: column;
+  background:none;
+  width: 100%;
+}
+
+.aboutcontent{
+  margin: 20px;
+  width: 100%;
+  
+} 
+.aboutcontentP{
+  font-size: 15px;
+}
+
+.aboutimg {
+  
+  margin-left: 10px;
+  height: auto;
+}
+
+.text{
+  margin-top: 600px;
+  margin-left: 20px;
+}
+
+.bannar{
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.speed{
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+  padding: 10px;
+ 
+}
+
+.footer{
+  width: 100%;
+}
+
+}
