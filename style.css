@@ -112,7 +112,7 @@ margin-left: 200px;
   font-size: 18px;
   font-weight: 400;
   line-height: 136%;
-align-items: center;
+  align-items: center;
 }
 
 .bannar{
@@ -145,11 +145,11 @@ align-items: center;
   margin-top: 10px;
   margin-left: 30px;
 }
-.bannarimg{
+/* .bannarimg{
     width: 550px;
   height: 308px;
   padding: 30px 30px;  
-}
+} */
 
 .bannar2{
   width: 610px;
@@ -206,39 +206,39 @@ align-items: center;
 
 @media screen and  (max-width:576px) {
 
-  body{
-    max-width: 100%;
-  }
+ 
 .container{
   flex-direction: column;
   gap: 150px;
-  margin-left: 20px;
+ 
 }
 .content{
   width: 100%;
-  margin-left: 20px;
-  margin-top: 0;
+ margin: 0;
 }
 .content h1{
   font-size: 35px;
-
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 .contentP1{
   font-size: 15px;
 }
 .containerimg{
-  width: 100%;
-  height: auto;
+  width:70%;
+  height: 100%;
+  padding: 0;
 }
 
 .About{
   flex-direction: column;
   background:none;
-  width: 100%;
+  width: auto;
 }
 
 .aboutcontent{
-  margin: 20px;
+ margin: 0;
   width: 100%;
   
 } 
@@ -254,27 +254,50 @@ align-items: center;
 
 .text{
   margin-top: 600px;
-  margin-left: 20px;
+  margin-left: 0;
+  width: auto;
+}
+.text p{
+  font-size: 15px;
 }
 
 .bannar{
   flex-direction: column;
-  width: 100%;
-  margin-left: 20px;
+  margin: 0;
+  width: auto;
+  height: auto;
 }
 
+.bannar1,.bannar2{
+  width: auto;
+  box-shadow: none;
+}
+.bannerimg{
+  width: 100%;
+  padding:0 ;
+  margin: 0;
+}
+.bannerh{
+  padding: 0;
+  margin: 0;
+}
+.bannarp{
+  font-size: 15px;
+  margin: 0;
+}
 .speed{
   flex-direction: column;
   gap: 20px;
-  width: 100%;
+  width: auto;
   height: auto;
-  margin-left: 20px;
-  padding: 10px;
+ margin-left: 0;
+ box-shadow: none;
  
 }
 
 .footer{
-  width: 100%;
+ width: 100%;
+  margin: 0;
 }
 
 }
